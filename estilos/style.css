@@ -55,7 +55,7 @@ header {
 
 iframe#produtos {
     width: 100vw;
-    height: 90px;
+    height: auto;
 }
 
 span#burguer:hover, span#person:hover, span#cart:hover {
