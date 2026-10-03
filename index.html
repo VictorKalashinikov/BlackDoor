@@ -7,22 +7,31 @@
     <link rel="stylesheet" href="estilos/style.css" media="all">
     <link rel="stylesheet" href="estilos/mediaquery.css">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
-    <title>BlackDoor</title>
+    <title>Blackdoor</title>
 </head>
 <body>
-    <header>
-        <h1>Meu site</h1>
-        <span class="material-symbols-outlined" id="burguer" onclick="clickMenu()">menu</span>
-        <menu id="itens">
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Instrumentos</a></li>
-                <li><a href="#">Acesórios</a></li>
-                <li><a href="#">Contato</a></li>
-                <li><a href="#">Conta</a></li>
-            </ul>
-        </menu>
-    </header>
+    <section class="hero">
+        <header>
+            <span class="material-symbols-outlined" id="burguer" onclick="clickMenu()">menu</span>
+            <nav id="itens">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Instrumentos</a></li>
+                    <li><a href="#">Acesórios</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">Conta</a></li>
+                </ul>
+            </nav>
+            <div class="logo">
+                <img src="imagens/logo.png" alt="Logo Blackdoor" class="logo-img">
+                <h1 class="logo-title">BLACKDOOR</h1>
+            </div>
+            <nav class="dados">
+                <span class="material-symbols-outlined">person</span>
+                <span class="material-symbols-outlined">shopping_cart</span>
+            </nav>
+        </header>
+    </section>
 
     <script>
         function clickMenu() {
