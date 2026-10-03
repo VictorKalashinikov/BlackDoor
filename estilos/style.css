@@ -64,3 +64,99 @@ span#burguer:hover, span#person:hover, span#cart:hover {
     color: rgb(155, 153, 153);
     cursor: pointer;
 }
+
+article#hero {
+    padding: 5px;
+    background: url(../imagens/hero\ celular.png);
+    background-size: cover;
+    height: 313px;
+
+}
+
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 6.5%;
+    transform: translateY(-42%);
+    z-index: 5;
+}
+
+.subtitle {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    margin-bottom: 25px;
+}
+
+.subtitle span {
+    width: 50px;
+    height: 2px;
+    background: #a90000;
+}
+
+.subtitle p {
+    font-size: 8px;
+    letter-spacing: 7px;
+    color: #ccc;
+}
+
+/* =========================
+TÍTULO PRINCIPAL
+========================= */
+
+.hero-title {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 16px;
+    line-height: 0.95;
+    letter-spacing: 7px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* =========================
+DESCRIÇÃO
+========================= */
+
+.description {
+    color: #bcbcbc;
+    font-size: 9px;
+    line-height: 1.8;
+    letter-spacing: 3px;
+    margin-bottom: 35px;
+}
+
+/* =========================
+BOTÃO
+========================= */
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 35px;
+    padding: 8px 11px;
+
+
+    border: 1px solid #b00000;
+    color: #ddd;
+    text-decoration: none;
+    font-size: 11px;
+    letter-spacing: 3px;
+    transition: 0.3s;
+}
+
+.button strong {
+    color: #d00000;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.button:hover {
+    background: #b00000;
+    color: white;
+}
+
+.button:hover strong {
+    color: white;
+}
