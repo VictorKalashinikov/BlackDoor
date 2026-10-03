@@ -17,6 +17,13 @@ body {
     background: #050505;
     color: white;
 }
+.logo a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
 
 .logo {
     display: flex;
@@ -27,7 +34,7 @@ body {
 .logo-img {
     width: 20px;
     height: auto;
-    display: block;
+    display: inline-block;
 }
 
 .logo-title {
@@ -48,5 +55,10 @@ header {
 
 iframe#produtos {
     width: 100vw;
-    height: 102px;
+    height: 90px;
+}
+
+span#burguer:hover, span#person:hover, span#cart:hover {
+    color: rgb(155, 153, 153);
+    cursor: pointer;
 }
